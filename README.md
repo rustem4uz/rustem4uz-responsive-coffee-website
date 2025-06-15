@@ -12,7 +12,7 @@
 
 ## 📸 Превью
 
-![Скриншот сайта](https://i.pinimg.com/originals/f2/6f/17/f26f17adf83bc0d652fa4b72670c8b3b.jpg)
+![Превью сайта](https://i.yapx.ru/Zck2r.png)
 
 ---
 
