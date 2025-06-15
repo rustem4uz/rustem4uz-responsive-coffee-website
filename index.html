@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="author" content="emirveliyevrustem">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>rustem4uz-coffee-website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+        <link rel="stylesheet" href="main.css">
+      </head>
+<body>
+    <header>
+        <nav class='navbar section-content'>
+         <a href="#" class='nav-logo'>
+            <h2 class='logo-text'>☕ The Art of Coffee</h2>
+         </a>
+         <ul class='nav-menu'>
+            <button id="menu-close-button" class="fas fa-times"></button>
+            <li class='nav-item'>
+                <a href="#" class="nav-link">Главная</a>
+            </li>
+            <li class='nav-item'>
+                <a href="#about" class="nav-link">О нас</a>
+            </li>
+            <li class='nav-item'>
+                <a href="#menu" class="nav-link">Меню</a>
+            </li>
+            <li class='nav-item'>
+                <a href="#testimonials" class="nav-link">Отзывы</a>
+            </li>
+            <li class='nav-item'>
+                <a href="#gallery" class="nav-link">Галлерея</a>
+            </li>
+            <li class='nav-item'>
+                <a href="#contact" class="nav-link">Контакты</a>
+            </li>
+         </ul>
+
+         <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!--Главная-->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Best Coffee</h2>
+                    <h3 class="subtitle">Сделай свой день прекрасным с нашим особенным кофе!</h3>
+                    <p class="description">Добро пожаловать в наш кофейный рай, где каждое зернышко рассказывает свою историю, а каждая чашка приносит радость.</p>
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Заказывайте прямо сейчас</a>
+                        <a href="#" class="button contact-us">Связаться с нами</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="images/coffee-hero-section.png" alt="Hero" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!--О Нас-->
+        <section class="about-section" id='about'>
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="images/about-image.jpg" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">О нас</h2>
+                    <p class="text">
+                        Кофейня в Самарканде, Узбекистан —<br>
+                        гордится тем, что стала любимым местом<br>
+                        как для истинных ценителей кофе,<br>
+                        так и для тех, кто ищет теплого общения и уюта.<br><br>
+                        Мы стремимся подарить вам неповторимый опыт<br>
+                        наслаждения кофе в атмосфере восточного гостеприимства —<br>
+                        уютной, спокойной и вдохновляющей.<br><br>
+                        Здесь каждый гость может расслабиться,<br>
+                        почувствовать себя как дома<br>
+                        и приятно провести время за чашечкой ароматного напитка.
+                      </p>
+                      <div class="social-link-list">
+                        <div class="social-links">
+                            <a href="https://vk.com/rustem4uz" class="social-link" target="_blank" rel="noopener">
+                              <i class="fa-brands fa-vk"></i>
+                            </a>
+                            <a href="https://t.me/emirveliyevrustem" class="social-link" target="_blank" rel="noopener">
+                              <i class="fa-brands fa-telegram"></i>
+                            </a>
+                            <a href="https://github.com/rustem4uz" class="social-link" target="_blank" rel="noopener">
+                              <i class="fa-brands fa-github"></i>
+                            </a>
+                          </div> 
+                      </div>                      
+                </div>
+            </div>
+        </section>
+        
+        <!--Меню-->
+        <section class="menu-section" id='menu'>
+            <h2 class="section-title">Наше меню</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/hot-beverages.png" alt="Горячие напитки" class="menu-image">
+                        <h3 class="name">Горячие напитки</h3>
+                        <p class="text">Широкий выбор горячего кофе, который подарит бодрость и лёгкость.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/cold-beverages.png" alt="Холодные напитки" class="menu-image">
+                        <h3 class="name">Холодные напитки</h3>
+                        <p class="text">Освежающие напитки с ярким вкусом — идеальны в жару и для поднятия настроения.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/refreshment.png" alt="Освежающее" class="menu-image">
+                        <h3 class="name">Освежающее</h3>
+                        <p class="text">Лёгкие и бодрящие напитки, чтобы восстановить силы и утолить жажду в любой момент.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/special-combo.png" alt="Специальные комбо" class="menu-image">
+                        <h3 class="name">Специальные комбо</h3>
+                        <p class="text">Идеально подобранные сочетания еды и напитков — насытят и подарят гастрономическое удовольствие.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/desserts.png" alt="Десерты" class="menu-image">
+                        <h3 class="name">Десерты</h3>
+                        <p class="text">Сладкие угощения — от классики до новых вкусов. Каждый кусочек — наслаждение.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/burger-frenchfries.png" alt="Бургеры и картофель фри" class="menu-image">
+                        <h3 class="name">Бургеры и картофель фри</h3>
+                        <p class="text">Сочные бургеры и хрустящий картофель — идеальный выбор для любого времени дня.</p>
+                    </li>                    
+                </ul>
+            </div>
+        </section>
+        
+        <!--Отзывы-->
+        <section class="testimonials-section" id='testimonials'>
+            <h2 class="section-title">Отзывы</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-1.jpg" alt="User" class="user-image">
+                                <h3 class="name">Sarah Johnson</h3>
+                                <i class="feedback">"С того дня, как я впервые зашла сюда, это место стало для меня особенным. Здесь всегда пахнет свежим кофе, играет уютная музыка, а улыбка бариста будто говорит: 'Рада тебя видеть снова'. Это не просто кофейня — это мой маленький островок спокойствия в шумном мире."</i>
+                            </li>            
+                            
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-2.jpg" alt="User" class="user-image">
+                                <h3 class="name">James Wilson</h3>
+                                <i class="feedback">"Работаю рядом и каждый день забегаю сюда — то за капучино, то просто передохнуть. Мне нравится, что здесь помнят моё имя и всегда делают кофе именно так, как я люблю. Честно говоря, нигде больше не чувствовал такого теплого отношения."</i>
+                            </li>      
+                            
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-3.jpg" alt="User" class="user-image">
+                                <h3 class="name">Michael Brown</h3>
+                                <i class="feedback">"В нашем районе много кофеен, но только здесь я по-настоящему отдыхаю. Уютные кресла, мягкий свет, аромат ванили и корицы... Идеальное место, чтобы подумать, почитать или просто насладиться тишиной и вкусным кофе."</i>
+                            </li>      
+                            
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-4.jpg" alt="User" class="user-image">
+                                <h3 class="name">Emily Harris</h3>
+                                <i class="feedback">"Каждое воскресенье мы с дочкой приходим сюда на какао и чизкейк. Для нас это стало доброй традицией. Здесь чувствуешь себя как дома: тепло, чисто, и каждая деталь — с любовью. Даже дети любят это место, а это о многом говорит."</i>
+                            </li>      
+                            
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-5.jpg" alt="User" class="user-image">
+                                <h3 class="name">Anthony Thompson</h3>
+                                <i class="feedback">"Иногда просто нужно остановиться, выдохнуть и почувствовать вкус жизни. Для меня таким местом стала эта кофейня. Здесь всегда хорошая энергия, отличный кофе и добрые люди. Спасибо, что вы есть!"</i>
+                            </li>                                             
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Галерея-->
+        <section class="gallery-section" id='gallery'>
+            <h2 class="section-title">Галерея</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="images/gallery-1.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-2.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-3.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-4.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-5.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-6.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Свяжитесь с нами-->
+        <section class="contact-section" id='contact'>
+            <h2 class="section-title">Свяжитесь с нами</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>г. Самарканд, ул. Регистанская, 12</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>rustem4uz@gmail.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+998 (93) 123-45-67</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-clock"></i>
+                        <p>Пн–Пт: 08:00 – 22:00</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-clock"></i>
+                        <p>Сб–Вс: 09:00 – 23:00</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p><a href="https://instagram.com/art.of.coffee" target="_blank">instagram.com/art.of.coffee</a></p>
+                    </li>
+                </ul>                
+    
+                <form action="#" class="contact-form">
+                    <input type="text"  placeholder='Ваше имя' class="form-input" required>
+                    <input type="email" placeholder='Ваша почта' class="form-input" required>
+                    <textarea placeholder='Ваше сообщение' class='form-input' required></textarea>
+                    <button class="submit-button">Отправить</button>
+                </form>
+            </div>
+        </section>
+
+        <!--Нижняя часть сайта-->
+        <footer class='footer-section'>
+            <div class="section-content">
+                <p class="copyright-text">&copy; 2025 The Art of Coffee </p>
+
+                <div class="social-link-list">
+                    <a href="https://vk.com/rustem4uz" class="social-link" target="_blank" rel="noopener">
+                      <i class="fa-brands fa-vk"></i>
+                    </a>
+                    <a href="https://t.me/emirveliyevrustem" class="social-link" target="_blank" rel="noopener">
+                      <i class="fa-brands fa-telegram"></i>
+                    </a>
+                    <a href="https://github.com/rustem4uz" class="social-link" target="_blank" rel="noopener">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                  </div>                  
+
+                  <p class="policy-text">
+                    <a href="#" class="policy-link">Политика Конфидециальности</a>
+                    <span class="separator">•</span>
+                    <a href="#" class="policy-link">Возврат и отмена заказа</a>
+                  </p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
