@@ -12,7 +12,7 @@
 
 ## 📸 Превью
 
-![Превью сайта](https://i.yapx.ru/Zck2r.png)
+![Превью сайта]([https://i.yapx.ru/Zck2r.png](https://yapx.ru/image/Zck2r))
 
 ---
 
